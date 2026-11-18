@@ -1,11 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Empréstimos oferecidos diretamente pela Bonuspago Sociedade de Crédito Direto S.A."><meta name="robots" content="index,follow"><title>Empréstimos | Bonuspago</title><link rel="stylesheet" href="assets/style.css"></head>
-<body><header><div class="wrap nav">
-<a class="brand" href="index.html"><span class="mark">B</span>bonuspago</a>
-<nav aria-label="Navegação principal">
-<a href="index.html">Início</a><a href="sobre.html">Sobre nós</a><a href="politica-de-privacidade.html">Privacidade</a><a href="termos-de-uso.html">Termos de uso</a><a href="contato.html">Contato</a>
-</nav></div></header><main>
+<meta name="description" content="Empréstimos oferecidos diretamente pela Bonuspago Sociedade de Crédito Direto S.A."><meta name="robots" content="index,follow"><title>Bonuspago | Empréstimos</title>
+<style>
+:root{--green:#08775c;--dark:#07513f;--mint:#e9f6f1;--ink:#172b27;--muted:#60716c;--line:#dce8e3;--bg:#f8fbf9}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,system-ui,Arial,sans-serif}
+a{color:var(--green);text-decoration:none}.wrap{width:min(1120px,calc(100% - 36px));margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line)}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;padding:12px 0}
+.brand{font-size:1.35rem;font-weight:900;letter-spacing:-.05em;color:var(--dark)}.mark{display:inline-grid;place-items:center;background:var(--green);color:#fff;border-radius:10px;width:34px;height:34px;margin-right:8px}
+nav{display:flex;gap:18px;flex-wrap:wrap;font-size:.9rem;font-weight:650}nav a{color:#31433e}
+.hero{padding:70px 0;background:radial-gradient(ellipse at 85% 20%,#d7f0e6,transparent 36%),linear-gradient(135deg,#f1faf5,#fff)}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.eyebrow{color:var(--green);font-size:.76rem;font-weight:850;letter-spacing:.13em;text-transform:uppercase}
+h1{font-size:clamp(2.5rem,5vw,4.2rem);line-height:1.05;letter-spacing:-.05em;margin:12px 0 18px}h2{font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.15;letter-spacing:-.035em;margin:8px 0 16px}
+h3{line-height:1.25}.hero p,.muted{color:var(--muted);font-size:1.08rem}.hero-card{background:linear-gradient(145deg,#0b765a,#064b3d);color:white;border-radius:26px;padding:30px;min-height:230px}
+.btn{display:inline-block;background:var(--green);color:white;padding:12px 20px;border-radius:28px;font-weight:750;margin-top:12px}
+section{padding:62px 0}.head{max-width:780px;margin-bottom:28px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card,.panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px}.card p,.panel p,li{color:var(--muted)}
+.soft{background:var(--mint)}.content{max-width:900px}.content h2{margin-top:30px}.content h3{margin-top:24px}.content p,.content li{color:#52645e}
+.legalbox{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px}.legalbox h3{margin-top:24px}.legalbox h3:first-child{margin-top:0}
+.alert{border:2px solid #c17b16;background:#fff8e8;border-radius:14px;padding:18px;color:#674b1b;margin:22px 0}.rates{width:100%;border-collapse:collapse;background:white;margin:18px 0}.rates th,.rates td{padding:12px;border:1px solid var(--line);text-align:left}.rates th{background:var(--mint)}
+footer{background:#102c25;color:#dcebe5;padding:38px 0 20px}.footgrid{display:grid;grid-template-columns:1.2fr 1fr 1.2fr;gap:24px}footer .brand{color:white}footer p,footer address{font-size:.9rem;color:#c0d4cc;font-style:normal}footer a{color:#dcebe5}.copy{border-top:1px solid #ffffff25;margin-top:24px;padding-top:16px;color:#a9c2b8;font-size:.82rem}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.nav{align-items:flex-start}nav{gap:12px}.footgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.cards,.footgrid{grid-template-columns:1fr}.hero{padding:48px 0}section{padding:48px 0}}
+
+/* Navegação em página única */
+[id]{scroll-margin-top:24px} </style></head><body><header><div class="wrap nav"><a class="brand" href="#inicio"><span class="mark">B</span>bonuspago</a><nav aria-label="Navegação principal"><a href="#inicio">Início</a><a href="#sobre">Sobre nós</a><a href="#privacidade">Privacidade</a><a href="#termos">Termos de uso</a><a href="#contato">Contato</a></nav></div></header><main>
+<div id="inicio">
 <section class="hero"><div class="wrap hero-grid"><div>
 <span class="eyebrow">BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A.</span>
 <h1>Empréstimos com clareza e responsabilidade.</h1>
@@ -38,9 +57,56 @@
 </div>
 <div class="alert"><strong>Informação para o consumidor:</strong> a contratação está sujeita à análise de crédito e à aprovação da própria BONUSPAGO. O cliente deve avaliar as condições completas da proposta e somente contratar se estiver de acordo com os valores, encargos e prazos informados.</div>
 </div></section>
-<section><div class="wrap"><div class="head"><span class="eyebrow">Autorização e enquadramento</span><h2>Instituição autorizada</h2><p>A BONUSPAGO informa, conforme certidão do Banco Central do Brasil emitida em 13/11/2026 anteriormente apresentada pela empresa, estar “Autorizada em Atividade” no segmento Sociedade de Crédito Direto. A autorização e o enquadramento devem ser mantidos atualizados e conferidos na documentação oficial vigente.</p><p>O enquadramento como Sociedade de Crédito Direto está sujeito à regulamentação do Conselho Monetário Nacional e do Banco Central do Brasil.</p></div><a href="sobre.html">Conheça a instituição e sua estrutura</a></div></section>
-</main><footer><div class="wrap"><div class="footgrid">
-<div><a class="brand" href="index.html"><span class="mark">B</span>bonuspago</a><p>Sociedade de Crédito Direto. Oferta de empréstimos sob responsabilidade da própria BONUSPAGO.</p></div>
-<div><h3>Navegação</h3><p><a href="sobre.html">Sobre nós</a></p><p><a href="politica-de-privacidade.html">Política de Privacidade</a></p><p><a href="termos-de-uso.html">Termos de Uso</a></p><p><a href="contato.html">Contato</a></p></div>
-<div><h3>Dados cadastrais</h3><p><strong>BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A.</strong></p><p>CNPJ: 36.586.946/0001-29</p><address>Av. Brasil, 4541, Sala 101 E, Centro<br>Cascavel – PR | CEP 85812-002</address></div>
-</div><div class="copy">© 2026 Bonuspago Sociedade de Crédito Direto S.A. Todos os direitos reservados.</div></div></footer></body></html>
+<section><div class="wrap"><div class="head"><span class="eyebrow">Autorização e enquadramento</span><h2>Instituição autorizada</h2><p>A BONUSPAGO informa, conforme certidão do Banco Central do Brasil emitida em 13/11/2026 anteriormente apresentada pela empresa, estar “Autorizada em Atividade” no segmento Sociedade de Crédito Direto. A autorização e o enquadramento devem ser mantidos atualizados e conferidos na documentação oficial vigente.</p><p>O enquadramento como Sociedade de Crédito Direto está sujeito à regulamentação do Conselho Monetário Nacional e do Banco Central do Brasil.</p></div><a href="#sobre">Conheça a instituição e sua estrutura</a></div></section>
+</div>
+<div id="sobre">
+<section class="hero"><div class="wrap"><span class="eyebrow">Institucional</span><h1>Sobre a BONUSPAGO</h1><p>Conheça a instituição responsável pelos empréstimos apresentados neste site.</p></div></section>
+<section><div class="wrap content">
+<h2>Quem somos</h2><p>A <strong>BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A.</strong> é uma sociedade anônima de capital fechado, inscrita no CNPJ nº <strong>36.586.946/0001-29</strong>, com sede em Cascavel, Paraná. A empresa atua como Sociedade de Crédito Direto e direciona este site exclusivamente à apresentação de sua atividade de empréstimos.</p>
+<h2>O que oferecemos</h2><p>A BONUSPAGO oferece empréstimos diretamente aos clientes. A própria instituição é responsável pela oferta, análise das solicitações, definição das condições aplicáveis e formalização das operações que contratar, observadas as regras legais e regulatórias.</p>
+<h2>Responsabilidade pela prestação do serviço</h2><p>A BONUSPAGO é a fornecedora e responsável institucional pelos empréstimos que anuncia. Não atua como afiliada, captadora de leads ou intermediária que encaminha o consumidor a outra instituição financeira para que ela conceda o empréstimo anunciado. Não depende de parceria comercial com outra instituição financeira para ser a credora das operações de empréstimo que formaliza.</p>
+<p>Essa declaração diz respeito à responsabilidade pela oferta e concessão do crédito. Ela não significa necessariamente que a empresa deixe de contratar fornecedores técnicos, administrativos ou de infraestrutura para apoiar suas atividades, quando necessário.</p>
+<h2>Autorização regulatória</h2><p>Conforme certidão do Banco Central do Brasil emitida em 13/11/2026 e anteriormente apresentada pela empresa, a BONUSPAGO consta como “Autorizada em Atividade”, no segmento Sociedade de Crédito Direto. A certidão também registra a participação da instituição no Pix. A autorização deve ser descrita estritamente nos limites do documento e da regulamentação aplicável.</p>
+<p>O funcionamento de uma Sociedade de Crédito Direto é disciplinado, entre outras normas, pela Resolução CMN nº 5.050/2022 e demais normas vigentes. A BONUSPAGO não afirma possuir licença para atividades além das que estejam efetivamente autorizadas.</p>
+<h2>Dados cadastrais</h2><p><strong>Razão social:</strong> BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A.<br><strong>CNPJ:</strong> 36.586.946/0001-29<br><strong>Endereço:</strong> Av. Brasil, 4541, Sala 101 E, Centro, Cascavel – PR, CEP 85812-002.</p>
+</div></section>
+</div>
+<div id="privacidade">
+<section class="hero"><div class="wrap"><span class="eyebrow">Proteção de dados</span><h1>Política de Privacidade</h1><p>Como a BONUSPAGO trata dados pessoais no contexto de suas atividades e canais institucionais.</p></div></section>
+<section><div class="wrap content legalbox">
+<h3>1. Controladora</h3><p>A controladora dos dados pessoais tratados no contexto desta Política é a BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A., CNPJ nº 36.586.946/0001-29, com sede na Av. Brasil, 4541, Sala 101 E, Centro, Cascavel – PR, CEP 85812-002.</p>
+<h3>2. Dados tratados</h3><p>Conforme a interação e a operação, poderão ser tratados dados de identificação, contato e cadastro; informações financeiras e cadastrais necessárias à avaliação de crédito; dados de contratos e transações; registros de atendimento; e dados técnicos de navegação e segurança.</p>
+<h3>3. Finalidades</h3><p>Os dados poderão ser utilizados para identificação, cadastro, recepção e análise de solicitações de empréstimo, avaliação de crédito, prevenção a fraudes, formalização e execução de contratos, administração das operações, atendimento, cumprimento de obrigações legais e regulatórias e exercício regular de direitos.</p>
+<h3>4. Bases legais</h3><p>O tratamento será fundamentado nas hipóteses legais aplicáveis da Lei nº 13.709/2018 (LGPD), conforme cada finalidade, incluindo procedimentos preliminares ou execução de contrato, cumprimento de obrigação legal ou regulatória, proteção do crédito, exercício regular de direitos, legítimo interesse e consentimento, quando aplicáveis.</p>
+<h3>5. Compartilhamento</h3><p>Quando necessário e permitido por lei, os dados poderão ser compartilhados com prestadores de serviços tecnológicos, operacionais, administrativos e de segurança; entidades de proteção ao crédito; autoridades públicas e órgãos reguladores; e outros destinatários com fundamento legal. O uso de fornecedores de apoio não altera a responsabilidade da BONUSPAGO como instituição que oferece e formaliza seus empréstimos.</p>
+<h3>6. Armazenamento e segurança</h3><p>Os dados serão conservados pelo tempo necessário às finalidades do tratamento e aos prazos legais e regulatórios aplicáveis. São adotadas medidas técnicas e administrativas de segurança compatíveis com os riscos do tratamento.</p>
+<h3>7. Direitos dos titulares</h3><p>O titular poderá exercer os direitos previstos na LGPD, como confirmação do tratamento, acesso, correção, anonimização, bloqueio ou eliminação quando cabível, informação sobre compartilhamento e demais direitos assegurados por lei, observadas as limitações legais.</p>
+<h3>8. Cookies</h3><p>O site poderá utilizar cookies e tecnologias semelhantes para funcionamento, segurança, preferências e análise de navegação, de acordo com a configuração efetivamente adotada. O usuário poderá gerenciar cookies nas configurações do navegador.</p>
+<h3>9. Solicitações</h3><p>Solicitações relacionadas a dados pessoais poderão ser encaminhadas por escrito ao endereço físico da BONUSPAGO indicado nesta Política. A solicitação poderá exigir confirmação de identidade e será tratada conforme os requisitos legais.</p>
+<h3>10. Atualizações</h3><p>Esta Política poderá ser atualizada para refletir mudanças legais, regulatórias ou nas práticas de tratamento. A versão publicada nesta página será a versão vigente.</p>
+</div></section>
+</div>
+<div id="termos">
+<section class="hero"><div class="wrap"><span class="eyebrow">Condições de utilização</span><h1>Termos de Uso</h1><p>Regras para acesso ao site e informações sobre os empréstimos oferecidos pela BONUSPAGO.</p></div></section>
+<section><div class="wrap content legalbox">
+<h3>1. Identificação</h3><p>Este site é relacionado à BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A., CNPJ nº 36.586.946/0001-29, com sede na Av. Brasil, 4541, Sala 101 E, Centro, Cascavel – PR, CEP 85812-002.</p>
+<h3>2. Atividade</h3><p>A BONUSPAGO atua como Sociedade de Crédito Direto e este site é dedicado à apresentação de empréstimos oferecidos pela própria instituição. A BONUSPAGO é responsável pelas operações de crédito que formaliza diretamente com seus clientes.</p>
+<h3>3. Solicitação e análise</h3><p>O envio de uma solicitação ou a consulta às informações do site não representa aprovação automática, promessa de concessão ou garantia de contratação. Toda operação está sujeita à análise de crédito, critérios de elegibilidade, validação das informações e formalização contratual.</p>
+<h3>4. Taxas e custos</h3><p>As taxas de juros, o Custo Efetivo Total (CET), tributos, tarifas, encargos, prazo, parcelas e valor total a pagar devem ser apresentados antes da contratação e constar dos documentos da operação. O cliente deve avaliar as condições apresentadas antes de assumir obrigações.</p>
+<h3>5. Uso adequado</h3><p>O usuário deverá utilizar o site de forma lícita e responsável, sem comprometer sua segurança ou funcionamento, tentar obter acesso não autorizado, transmitir códigos maliciosos ou praticar atividades ilícitas.</p>
+<h3>6. Conteúdo e disponibilidade</h3><p>A instituição busca manter as informações claras e atualizadas. O conteúdo poderá ser alterado e o acesso ao site poderá sofrer interrupções por razões técnicas, operacionais, de manutenção ou segurança.</p>
+<h3>7. Propriedade intelectual</h3><p>Marcas, textos, elementos visuais e demais conteúdos são protegidos pela legislação aplicável. A reprodução ou utilização comercial depende de autorização, salvo hipóteses permitidas por lei.</p>
+<h3>8. Privacidade</h3><p>O tratamento de dados pessoais observará a LGPD e a Política de Privacidade disponibilizada neste site.</p>
+<h3>9. Legislação</h3><p>Estes Termos são regidos pelas leis da República Federativa do Brasil, respeitadas as normas específicas aplicáveis às instituições financeiras e às relações de consumo.</p>
+</div></section>
+</div>
+<div id="contato">
+<section class="hero"><div class="wrap"><span class="eyebrow">Canais institucionais</span><h1>Contato</h1><p>Identificação cadastral e endereço institucional da BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A.</p></div></section>
+<section><div class="wrap"><div class="panel">
+<h2>Dados da empresa</h2><p><strong>Razão social:</strong> BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A.</p>
+<p><strong>CNPJ:</strong> 36.586.946/0001-29</p><p><strong>Endereço:</strong> Av. Brasil, 4541, Sala 101 E, Centro, Cascavel – PR, CEP 85812-002.</p>
+<p><strong>Atividade apresentada neste site:</strong> oferta de empréstimos pela própria BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A.</p>
+<p>Para correspondências formais, solicitações institucionais ou assuntos relacionados à privacidade, utilize o endereço físico acima. Não foram incluídos telefone, WhatsApp ou e-mail porque esses contatos não foram confirmados para publicação.</p>
+</div></div></section>
+</div>
+</main><footer><div class="wrap"><div class="footgrid"><div><a class="brand" href="#inicio"><span class="mark">B</span>bonuspago</a><p>Sociedade de Crédito Direto. Oferta de empréstimos sob responsabilidade da própria BONUSPAGO.</p></div><div><h3>Navegação</h3><p><a href="#sobre">Sobre nós</a></p><p><a href="#privacidade">Política de Privacidade</a></p><p><a href="#termos">Termos de Uso</a></p><p><a href="#contato">Contato</a></p></div><div><h3>Dados cadastrais</h3><p><strong>BONUSPAGO SOCIEDADE DE CRÉDITO DIRETO S.A.</strong></p><p>CNPJ: 36.586.946/0001-29</p><address>Av. Brasil, 4541, Sala 101 E, Centro<br>Cascavel – PR | CEP 85812-002</address></div></div><div class="copy">© 2026 Bonuspago Sociedade de Crédito Direto S.A. Todos os direitos reservados.</div></div></footer></body></html>
